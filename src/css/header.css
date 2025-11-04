@@ -26,10 +26,10 @@
       padding: 12px;
       color: #d1b081;
       transition: color .2s ease;
-    }
 
-    li:hover {
-      color: #fff;
+      &:hover {
+        color: #fff;
+      }
     }
 
     #li_ul {

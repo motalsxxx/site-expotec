@@ -3,7 +3,6 @@
   padding: 20px;
   background-color: #00000c;
   box-shadow: 0 0 12px .05px rgba(255, 255, 255, 0.2);
-  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,11 +18,11 @@
       text-decoration: none;
       color: #d1b081;
       font-size: 20px;
-      transition: color .2s ease
-    }
+      transition: color .2s ease;
 
-    a:hover {
-      color: #fff;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 }

@@ -7,9 +7,14 @@
   <meta name="keywords" content="IDE, VSCode, Visual Studio, Python, PHP, JavaScript, Java, C#, C++, HTML, CSS, Ruby, Ruby on Rails, Go, Golang, Rust, Node.js, React, Angular, Vue.js, Django, Flask, Laravel, Spring Boot, ASP.NET">
 
   <link rel="shortcut icon" href="src/imgs/logo-valhalla.png" type="image/x-icon">
+  <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="src/bootstrap-icons-1.13.1/bootstrap-icons.css">
   <link rel="stylesheet" href="src/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
   <link rel="stylesheet" href="src/bootstrap-icons-1.13.1/bootstrap-icons.scss">
+
+  <!-- SwiperJS CDN -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
   <link rel="stylesheet" href="src/css/styles.css">
   <link rel="stylesheet" href="src/css/header.css">
   <link rel="stylesheet" href="src/css/main.css">
@@ -72,8 +77,84 @@
         <div id="support_sub-container">
           <p class="paragraph">Encontrou algum bug? Tem alguma dúvida ou sugestão? Entre em contato conosco: </p>
 
-          <div id="support_icons">
-            <a href="https://www.instagram.com/idevalhalla/" target="_blank"><i class="bi bi-instagram"></i> Instagram: Valhalla</a> 
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/laura.png" alt="Maria Laura" class="user-image">
+                  <h2 class="user-name">Maria Laura</h2>
+                  <p class="user-profession">Diretora de Finanças</p>
+                  <button id="ig-laura" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/melyssa.png" alt="Melyssa Farias" class="user-image">
+                  <h2 class="user-name">Melyssa Farias</h2>
+                  <p class="user-profession">Designer Gráfica</p>
+                  <button id="ig-melyssa" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/caua.png" alt="Cauã Henrique" class="user-image">
+                  <h2 class="user-name">Cauã Henrique</h2>
+                  <p class="user-profession">Suporte Técnico</p>
+                  <button id="ig-caua" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/rafael.png" alt="João Rafael" class="user-image">
+                  <h2 class="user-name">João Rafael</h2>
+                  <p class="user-profession">Gerente de Tecnologia</p>
+                  <button id="ig-rafael" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/lindemberg.png" alt="Lindemberg Alves" class="user-image">
+                  <h2 class="user-name">Lindemberg Alves</h2>
+                  <p class="user-profession">Designer de Produto</p>
+                  <button id="ig-lindem" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/heitorf.png" alt="Heitor Flávio" class="user-image">
+                  <h2 class="user-name">Heitor Flávio</h2>
+                  <p class="user-profession">Designer de Produto</p>
+                  <button id="ig-heitorf" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/samuel.png" alt="Samuel Borba" class="user-image">
+                  <h2 class="user-name">Samuel Borba</h2>
+                  <p class="user-profession">Desenvolvedor Full-Stack</p>
+                  <button id="ig-samuel" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/miguel.png" alt="Miguel de Souza" class="user-image">
+                  <h2 class="user-name">Miguel de Souza</h2>
+                  <p class="user-profession">Designer Gráfico</p>
+                  <button id="ig-miguel" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/mota.png" alt="José Lucas da Mota" class="user-image">
+                  <h2 class="user-name">Lucas Mota</h2>
+                  <p class="user-profession">Desenvolvedor Front-End</p>
+                  <button id="ig-mota" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+
+                <div class="card-item swiper-slide">
+                  <img src="src/imgs/members/lima.png" alt="José Lucas Lima" class="user-image">
+                  <h2 class="user-name">Lucas Lima</h2>
+                  <p class="user-profession">Social Media</p>
+                  <button id="ig-lima" class="message-button"><i class="bi bi-instagram"></i> Mensagem</button>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -84,7 +165,7 @@
 
   <footer id="footer">
     <div id="icons">
-      <a title="Valhalla no Instagram" href="https://www.instagram.com/idevalhalla/" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a title="Valhalla no Instagram" href="https://www.instagram.com/idevallhalla/" target="_blank"><i class="bi bi-instagram"></i></a>
       <a title="Valhalla no LinkedIn" href="https://www.linkedin.com/in/lucas-mota-46875436a/" target="_blank"><i class="bi bi-linkedin"></i></a>
       <a title="Valhalla no GitHub" href="https://github.com/motalsxxx" target="_blank"><i class="bi bi-github"></i></a>
     </div>
@@ -98,5 +179,11 @@
   <script src="src/js/rollbackToTop.js"></script>
   <script src="src/js/scrollToSections.js"></script>
   <script src="src/js/redirectToLinks.js"></script>
+
+  <!-- SwiperJS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Custom SwiperJs Script-->
+  <script src="src/js/swiperScript.js"></script>
 </body>
 </html>
