@@ -16,6 +16,7 @@
     z-index: 3;
     border-radius: 50px;
     margin-top: 20px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
   
     #logo img {
       max-width: 60px;
@@ -46,6 +47,7 @@
         box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
         list-style: none;
         padding: 10px;
+        transition: .2s ease;
       }
   
       #first_li:hover {
@@ -57,7 +59,17 @@
   }
   
   #hdr.down {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
     background-color: #00000ca2;
+
+    #navbar {
+      #navbar_ul {
+        #first_li {
+          #li_ul {
+            background-color: #00000ca2;
+          }
+        }
+      }
+    }
   }
 }
