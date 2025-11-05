@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   support.addEventListener("click", () => {
     window.scrollTo({
-      top: 3350,
+      top: 3450,
       behavior: "smooth"
     });
   });
