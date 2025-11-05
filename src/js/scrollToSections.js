@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const aboutus = document.querySelector("#redirect_to_about_us");
   const support = document.querySelector("#redirect_to_support");
   
+  // Scroll to 'Ragnarok' section
   ragnarok.addEventListener("click", () => {
     window.scrollTo({
       top: 2550,
@@ -10,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+  // Scroll to 'About Us' section
   aboutus.addEventListener("click", () => {
     window.scrollTo({
       top: 2950,
@@ -17,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+  // Scroll to 'Support' section
   support.addEventListener("click", () => {
     window.scrollTo({
       top: 3450,

@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector("#hdr");
   const rollbackBtn = document.querySelector("#rollback_btn");
   
+  // Make the navbar get an box-shadow
   window.addEventListener("scroll", () => {
     if (window.scrollY > 15) {
       header.classList.add("down");
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Change icon on hover
   const li = document.querySelector("#first_li");
   const icon = document.querySelector("#header_icon");
 
