@@ -8,8 +8,8 @@
     position: fixed;
     opacity: 0;
     z-index: 2;
-    padding: 12px;
-    font-size: 12px;
+    padding: 15px;
+    font-size: 15px;
     border: none;
     outline: none;
     border-radius: 50%;
@@ -27,7 +27,7 @@
     &:hover {
       background-color: #22223c;
       box-shadow: 0 0 15px .3px rgba(255, 255, 255, 0.2);
-      transform: scale(1.02);
+      transform: scale(1.03);
     }
   }
 
@@ -95,7 +95,7 @@
       border-radius: 12px;
       padding: 15px;
       font-weight: 600;
-      background-color: #2156d231;
+      background-color: #2156d24e;
       color: #fff;
       scale: 1.5;
       transition: .5s ease;
@@ -104,6 +104,19 @@
         background: #2156d2;
         box-shadow: 0 0 20px .1px rgba(255, 255, 255, 0.3);
         transform: scale(1.02);
+
+        i {
+          background: #000000;
+        }
+      }
+
+      i {
+        background-color: #5b7cde70;
+        border: none;
+        border-radius: 10px;
+        padding: 8px;
+        transition: .5s ease;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
       }
     }
 
@@ -131,7 +144,10 @@
       margin: 1rem 3rem;
       align-items: center;
       text-align: justify;
-
+      
+      p {
+        font-weight: 400;
+      }
       
       img {
         max-width: 300px;

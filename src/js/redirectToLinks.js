@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
     window.open("https://www.instagram.com/idevallhalla/", "_blank");
   });
 
+  const download_btn = document.querySelector("#download_btn");
+
+  download_btn.addEventListener("click", () => {
+    window.open("https://www.instagram.com/idevallhalla/", "_blank");
+  });
+
   const ig_laura = document.querySelector("#ig-laura");
   const ig_melyssa = document.querySelector("#ig-melyssa");
   const ig_caua = document.querySelector("#ig-caua");

@@ -1,55 +1,63 @@
-#hdr {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  padding: 10px;
-  background-color: #00000c;
+#header_container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
-  transition: .5s ease;
-  z-index: 3;
+  justify-content: center;
 
-  #logo img {
-    max-width: 60px;
-  }
-
-  #navbar #navbar_ul {
+  #hdr {
+    position: fixed;
+    width: 90%;
+    top: 0;
+    background-color: #00000c;
     display: flex;
     align-items: center;
-    justify-content: center;
-    list-style: none;
-
-    li {
-      cursor: pointer;
-      padding: 12px;
-      color: #d1b081;
-      transition: .2s ease;
-
-      &:hover {
-        color: #fff;
-      }
+    justify-content: space-around;
+    flex-direction: row;
+    transition: .5s ease;
+    z-index: 3;
+    border-radius: 50px;
+    margin-top: 20px;
+  
+    #logo img {
+      max-width: 60px;
     }
-
-    #li_ul {
-      display: none;
-      position: fixed;
-      border-radius: 12px;
-      background-color: #00000c;
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+  
+    #navbar #navbar_ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       list-style: none;
-      padding: 10px;
-    }
-
-    #first_li:hover {
+  
+      li {
+        cursor: pointer;
+        padding: 12px;
+        color: #d1b081;
+        transition: .2s ease;
+  
+        &:hover {
+          color: #fff;
+        }
+      }
+  
       #li_ul {
-        display: block;
+        display: none;
+        position: fixed;
+        border-radius: 12px;
+        background-color: #00000c;
+        box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+        list-style: none;
+        padding: 10px;
+      }
+  
+      #first_li:hover {
+        #li_ul {
+          display: block;
+        }
       }
     }
   }
-}
-
-#hdr.down {
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+  
+  #hdr.down {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    background-color: #00000ca2;
+  }
 }
