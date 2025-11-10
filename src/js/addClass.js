@@ -12,18 +12,4 @@ document.addEventListener("DOMContentLoaded", () => {
       rollbackBtn.classList.remove("visible");
     }
   });
-
-  // Change icon on hover
-  const li = document.querySelector("#first_li");
-  const icon = document.querySelector("#header_icon");
-
-  li.addEventListener("mouseover", () => {
-    icon.classList.add("bi-caret-up-fill");
-    icon.classList.remove("bi-caret-down-fill");
-  });
-
-  li.addEventListener("mouseout", () => {
-    icon.classList.add("bi-caret-down-fill");
-    icon.classList.remove("bi-caret-up-fill");
-  });
 });

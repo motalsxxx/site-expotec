@@ -27,7 +27,7 @@
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- Navbar (Header) -->
   <div id="header_container">
     <header id="hdr">
       <div id="logo">
@@ -57,14 +57,14 @@
     <!-- Ragnarok Prints -->
     <div id="main_content">
       <div id="ide_imgs">
-        <img src="src/imgs/img-prototipo-1.jpg" alt="Imagem Protótipo 1">
-        <img src="src/imgs/img-prototipo-2.jpg" alt="Imagem Protótipo 2">
-        <img src="src/imgs/img-prototipo-3.jpg" alt="Imagem Protótipo 3">
-        <img src="src/imgs/img-prototipo-4.jpg" alt="Imagem Protótipo 4">
+        <img class="hidden" src="src/imgs/img-prototipo-1.jpg" alt="Imagem Protótipo 1">
+        <img class="hidden" src="src/imgs/img-prototipo-2.jpg" alt="Imagem Protótipo 2">
+        <img class="hidden" src="src/imgs/img-prototipo-3.jpg" alt="Imagem Protótipo 3">
+        <img class="hidden" src="src/imgs/img-prototipo-4.jpg" alt="Imagem Protótipo 4">
       </div>
       
       <!-- Download Ragnarok -->
-      <div id="download_area">
+      <div id="download_area" class="hidden">
         <h1 class="title">Simplicidade. Leveza. <span class="valhalla-blue">Ragnarok</span>.</h1>
         
         <button id="download_btn"><i class="bi bi-download"></i> Instalar</button>
@@ -73,7 +73,7 @@
       </div>
 
       <!-- About Valhalla -->
-      <div id="about_us">
+      <div id="about_us" class="hidden">
         <h1 class="title">Sobre <span class="valhalla-blue">Nós </span><i class="bi bi-info-circle"></i></h1>
         <div id="about_us_sub-container">
           <p class="paragraph">A Valhalla é uma empresa de tecnologia que busca inovação, integração e simplicidade. Fundada em 2025, temos como principal objetivo o desenvolvimento de nossa IDE, o <span class="valhalla-blue">Ragnarok</span>, que busca facilitar a experiência de programadores mais iniciantes, com uma interface bastante intuitiva e simples, ajudando o programador em seus primeiros passos no universo do desenvolvimento de software. Nossa visão é a de promover maior acessibilidade aos programadores mais iniciantes, garantindo que eles não tenham um primeiro contato assombroso com o universo de tecnologia. Com uma equipe apaixonada por tecnologia, nossos principais valores são a empatia, a simplicidade e a proatividade.</p>
@@ -82,7 +82,7 @@
       </div>
 
       <!-- Support Area -->
-      <div id="support">
+      <div id="support" class="hidden">
         <h1 class="title">Suporte <span class="valhalla-blue">Valhalla</span></h1>
 
         <div id="support_sub-container">
@@ -196,6 +196,7 @@
   <script src="src/js/rollbackToTop.js"></script>
   <script src="src/js/scrollToSections.js"></script>
   <script src="src/js/redirectToLinks.js"></script>
+  <script src="src/js/scrollAnimation.js"></script>
 
   <!-- SwiperJS Script CDN -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Scroll to 'About Us' section
   aboutus.addEventListener("click", () => {
     window.scrollTo({
-      top: 2950,
+      top: 3050,
       behavior: "smooth"
     });
   });
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Scroll to 'Support' section
   support.addEventListener("click", () => {
     window.scrollTo({
-      top: 3450,
+      top: 3550,
       behavior: "smooth"
     });
   });
